@@ -22,7 +22,7 @@ public class Main {
         double price = 12;
         System.out.println("$" + price);
 
-        double temp = -88.6;
+        double temp = 36.5;
         System.out.println("The Temperature is " + temp + " ᰱᰱᰱᰱᰱC");
 
         char grade = 'A';
@@ -37,7 +37,7 @@ public class Main {
         boolean isStudent = false;
         System.out.println(isStudent);
 
-        boolean forSale = false;
+        boolean forSale = true;
         System.out.println(forSale);
 
         if(isStudent == true){
@@ -45,6 +45,24 @@ public class Main {
         }
         else {
             System.out.println("You aren't a student");
+        }
+
+        String name = "Julius Irungu";
+        System.out.println("My name is " + name);
+
+        String food = "Ugali + Nyama";
+        System.out.println("My favourite food is " + food);
+
+        String email = "kasongothegithinji254@gmail.com";
+        System.out.println("Email ya kasongo -> " + email);
+        System.out.println("Hello my name is " + name + " and I'm " + age + " years old. My body temperature is " + temp + " ᰱᰱᰱᰱᰱC");
+
+        String car = "Ford Mustang";
+        if(forSale){
+            System.out.println("There is a " + car + " for sale");
+        }
+        else {
+            System.out.println("There is a " + car + " is not for sale");
         }
     }
 }
